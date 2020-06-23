@@ -15,10 +15,10 @@ extension ViewController: ARSCNViewDelegate {
         guard anchor is ARPlaneAnchor else {return}
 //        print("Horizontal surface detected")
         
-        let planeAnchor = anchor as! ARPlaneAnchor
-    
-        let planeNode = createPlane(planeAnchor: planeAnchor)
-        node.addChildNode(planeNode)
+//        let planeAnchor = anchor as! ARPlaneAnchor
+//
+//        let planeNode = createPlane(planeAnchor: planeAnchor)
+//        node.addChildNode(planeNode)
         
         guard focusSquare == nil else {return}
         let focusSquareLocal = FocusSquare()
@@ -30,23 +30,23 @@ extension ViewController: ARSCNViewDelegate {
         guard anchor is ARPlaneAnchor else {return}
         print("Horizontal surface updated")
         
-        let planeAnchor = anchor as! ARPlaneAnchor
-        
-        node.enumerateChildNodes {(childNode, _) in
-            childNode.removeFromParentNode()
-        }
-        
-        let planeNode = createPlane(planeAnchor: planeAnchor)
-        node.addChildNode(planeNode)
+//        let planeAnchor = anchor as! ARPlaneAnchor
+//
+//        node.enumerateChildNodes {(childNode, _) in
+//            childNode.removeFromParentNode()
+//        }
+//
+//        let planeNode = createPlane(planeAnchor: planeAnchor)
+//        node.addChildNode(planeNode)
     }
     
     func renderer(_ renderer: SCNSceneRenderer, didRemove node: SCNNode, for anchor: ARAnchor) {
         guard anchor is ARPlaneAnchor else {return}
         print("Horizontal surface updated")
                 
-        node.enumerateChildNodes {(childNode, _) in
-            childNode.removeFromParentNode()
-        }
+//        node.enumerateChildNodes {(childNode, _) in
+//            childNode.removeFromParentNode()
+//        }
     
     }
     
