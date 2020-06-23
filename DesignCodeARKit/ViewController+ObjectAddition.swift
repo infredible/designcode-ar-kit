@@ -36,6 +36,16 @@ extension ViewController {
         
         sceneView.scene.rootNode.addChildNode(model)
         print("\(modelName) added successfully")
+        
+        modelsInScene.append(model)
+        print(modelsInScene.count)
+        
+        DispatchQueue.main.async {
+                self.modelCounter.text = "\(self.modelsInScene.count) models"
+        }
+        
     }
+    
+    
     
 }

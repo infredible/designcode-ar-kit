@@ -13,9 +13,11 @@ import ARKit
 class ViewController: UIViewController {
 
     @IBOutlet var sceneView: ARSCNView!
+    @IBOutlet var modelCounter: UILabel!
     
     var focusSquare: FocusSquare?
     var screenCenter: CGPoint!
+    var modelsInScene: Array<SCNNode> = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +35,8 @@ class ViewController: UIViewController {
         
         // Set the scene to the view
 //        sceneView.scene = scene
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -89,4 +93,5 @@ class ViewController: UIViewController {
         // Reset tracking and/or remove existing anchors if consistent tracking is required
         
     }
+    
 }

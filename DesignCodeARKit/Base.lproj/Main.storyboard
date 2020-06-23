@@ -26,6 +26,13 @@
                                     <action selector="addObjectButtonTapped:" destination="BV1-FR-VrT" eventType="touchUpInside" id="gCF-NB-fLJ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 models" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BzE-Wf-l2S">
+                                <rect key="frame" x="131" y="64" width="152" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -35,6 +42,7 @@
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
                     </view>
                     <connections>
+                        <outlet property="modelCounter" destination="BzE-Wf-l2S" id="r3U-hp-ch2"/>
                         <outlet property="sceneView" destination="rff-eP-qD8" id="C7d-al-1AJ"/>
                     </connections>
                 </viewController>
