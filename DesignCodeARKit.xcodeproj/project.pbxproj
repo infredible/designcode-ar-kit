@@ -17,6 +17,7 @@
 		2DE1BE19249186D400EDFB84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1BE17249186D400EDFB84 /* LaunchScreen.storyboard */; };
 		2DE1BE24249186D400EDFB84 /* DesignCodeARKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1BE23249186D400EDFB84 /* DesignCodeARKitTests.swift */; };
 		2DE1BE2F249186D400EDFB84 /* DesignCodeARKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1BE2E249186D400EDFB84 /* DesignCodeARKitUITests.swift */; };
+		2DF288FF24A187E6006A98D5 /* ViewController+ObjectAddition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF288FE24A187E6006A98D5 /* ViewController+ObjectAddition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		2DE1BE2A249186D400EDFB84 /* DesignCodeARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCodeARKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE1BE2E249186D400EDFB84 /* DesignCodeARKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeARKitUITests.swift; sourceTree = "<group>"; };
 		2DE1BE30249186D400EDFB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF288FE24A187E6006A98D5 /* ViewController+ObjectAddition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ObjectAddition.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2DE1BE0C249186D000EDFB84 /* AppDelegate.swift */,
 				2DE1BE0E249186D000EDFB84 /* art.scnassets */,
 				2DE1BE10249186D000EDFB84 /* ViewController.swift */,
+				2DF288FE24A187E6006A98D5 /* ViewController+ObjectAddition.swift */,
 				2DB007E42491DB1200CA9546 /* ViewController+ARSCNViewDelegate.swift */,
 				2DB007E624929EB600CA9546 /* FocusSquare.swift */,
 				2DE1BE12249186D000EDFB84 /* Main.storyboard */,
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF288FF24A187E6006A98D5 /* ViewController+ObjectAddition.swift in Sources */,
 				2DB007E52491DB1200CA9546 /* ViewController+ARSCNViewDelegate.swift in Sources */,
 				2DB007E724929EB600CA9546 /* FocusSquare.swift in Sources */,
 				2DE1BE11249186D000EDFB84 /* ViewController.swift in Sources */,

@@ -42,7 +42,7 @@ extension ViewController: ARSCNViewDelegate {
     
     func renderer(_ renderer: SCNSceneRenderer, didRemove node: SCNNode, for anchor: ARAnchor) {
         guard anchor is ARPlaneAnchor else {return}
-        print("Horizontal surface updated")
+//        print("Horizontal surface updated")
                 
 //        node.enumerateChildNodes {(childNode, _) in
 //            childNode.removeFromParentNode()
