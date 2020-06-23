@@ -77,6 +77,20 @@ class ViewController: UIViewController {
 //            print("Focus square does not hit a plane")
             focusSquareLocal.isClosed = false
         }
+        
+        // Detect if models are in view of the camera
+        guard let pointOfView = sceneView.pointOfView else {return}
+        let firstVisibleModel = modelsInScene.first { (node) -> Bool in
+            return sceneView.isNode(node, insideFrustumOf: pointOfView)
+        }
+        
+        // Models are visible if first model visible is not absent
+        let modelsAreVisible = firstVisibleModel != nil
+        
+        // If models are visible and the focus square is hidden, then show focus square
+        if modelsAreVisible != focusSquareLocal.isHidden {
+            focusSquareLocal.setHidden(to: modelsAreVisible)
+        }
     }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
