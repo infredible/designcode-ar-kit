@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DB007E52491DB1200CA9546 /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB007E42491DB1200CA9546 /* ViewController+ARSCNViewDelegate.swift */; };
+		2DB007E724929EB600CA9546 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB007E624929EB600CA9546 /* FocusSquare.swift */; };
 		2DE1BE0D249186D000EDFB84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1BE0C249186D000EDFB84 /* AppDelegate.swift */; };
 		2DE1BE0F249186D000EDFB84 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE1BE0E249186D000EDFB84 /* art.scnassets */; };
 		2DE1BE11249186D000EDFB84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1BE10249186D000EDFB84 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DB007E42491DB1200CA9546 /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		2DB007E624929EB600CA9546 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
 		2DE1BE09249186D000EDFB84 /* DesignCodeARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeARKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE1BE0C249186D000EDFB84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DE1BE0E249186D000EDFB84 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				2DE1BE0C249186D000EDFB84 /* AppDelegate.swift */,
 				2DE1BE0E249186D000EDFB84 /* art.scnassets */,
 				2DE1BE10249186D000EDFB84 /* ViewController.swift */,
+				2DB007E42491DB1200CA9546 /* ViewController+ARSCNViewDelegate.swift */,
+				2DB007E624929EB600CA9546 /* FocusSquare.swift */,
 				2DE1BE12249186D000EDFB84 /* Main.storyboard */,
 				2DE1BE15249186D400EDFB84 /* Assets.xcassets */,
 				2DE1BE17249186D400EDFB84 /* LaunchScreen.storyboard */,
@@ -260,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB007E52491DB1200CA9546 /* ViewController+ARSCNViewDelegate.swift in Sources */,
+				2DB007E724929EB600CA9546 /* FocusSquare.swift in Sources */,
 				2DE1BE11249186D000EDFB84 /* ViewController.swift in Sources */,
 				2DE1BE0D249186D000EDFB84 /* AppDelegate.swift in Sources */,
 			);
@@ -435,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUDMRBEUUP;
 				INFOPLIST_FILE = DesignCodeARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUDMRBEUUP;
 				INFOPLIST_FILE = DesignCodeARKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
